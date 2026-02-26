@@ -240,10 +240,10 @@ width: 95%;
 #menu-overlay {
 
   position: absolute;
-  height: 0;
+  height: 95%;
   width: 95%;
   background: url("https://raw.githubusercontent.com/katerina-svaga/praktika4/refs/heads/main/da890409e877306d51f060e07dbf4780.png");
-  left: 50%;
+  left: 0;
   top: 0;
   transition: .5s ease-in;
   z-index: 2000;
