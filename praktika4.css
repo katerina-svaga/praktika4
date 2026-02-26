@@ -288,3 +288,26 @@ text-decoration: none;
   transition: .3s ease-in-out;
 
 }
+.hidden {
+
+  opacity: 0;
+  visibility: hidden;
+  margin-left: -60%;
+
+}
+.nav-animate {
+
+  color: #1889ab !important;
+
+}
+.first-letter {
+color: #ADD8E6;
+  
+float: left;
+ font-size: 84px;
+ line-height: 64px;
+ padding-top: 4px;
+ padding-right: 8px;
+ padding-left: 3px;
+ font-family: 'Montserrat', sans-serif;
+}
