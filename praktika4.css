@@ -240,7 +240,7 @@ width: 95%;
 #menu-overlay {
 
   position: absolute;
-  height: 95%;
+  height: 0;
   width: 95%;
   background: url("https://raw.githubusercontent.com/katerina-svaga/praktika4/refs/heads/main/adf26c7c696b123e49855776d6c72d8f.png");
   left: 0;
@@ -251,7 +251,7 @@ width: 95%;
 }
 .reveal {
 
-  height: 700px !important;
+  height: 6400px !important;
 
 }
 #nav-container {
