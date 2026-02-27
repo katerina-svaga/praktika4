@@ -247,11 +247,17 @@ width: 95%;
 #menu-overlay {
 
   position: absolute;
-  height: 0;
+
+  height: 1080px;
+
   width: 95%;
+
   background: url("https://raw.githubusercontent.com/katerina-svaga/praktika4/refs/heads/main/F8ApVEPXIAA4nge.jpg");
+
   left: 0;
+
   top: 0;
+
   transition: .5s ease-in;
   z-index: 2000;
 
