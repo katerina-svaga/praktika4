@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,900');  
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,900');
 
 html, body {
 
@@ -11,7 +11,7 @@ html, body {
   width: 100%;
   position: absolute;
   top: 0;
-  transform: translateY(-400px);
+  transform: translateY(-300px);
   overflow: visible;
 }
 * {
@@ -25,8 +25,6 @@ html, body {
   line-height: 1.3;
 
 }
-
-
 
 img {
 
@@ -53,7 +51,7 @@ width: 95%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  visibilty: hidden;
+  visibility: hidden;
   opacity: 0;
   box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.48);
   cursor: pointer;
@@ -81,7 +79,7 @@ width: 95%;
 
   position: absolute; 
   top: 10%;
-  left: 47%;
+  left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
   text-align: center;
@@ -249,7 +247,10 @@ width: 95%;
   position: absolute;
   height: 0px;
   width: 95%;
-  background: url("https://raw.githubusercontent.com/katerina-svaga/praktika4/refs/heads/main/contain_1200x630.jpg");
+  background: url("https://raw.githubusercontent.com/katerina-svaga/praktika4/refs/heads/main/da890409e877306d51f060e07dbf4780.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   left: 0;
   top: 0;
   transition: .5s ease-in;
@@ -307,9 +308,10 @@ float: left;
  padding-top: 4px;
  padding-right: 8px;
  padding-left: 3px;
+ font-family: 'Montserrat', sans-serif;
+}
 
- font-family: 'Montserrat', sans-serif; 
- #intro,
+#intro,
 #text,
 #nav-container ul li a,
 .nav {
